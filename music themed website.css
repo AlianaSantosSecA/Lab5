@@ -1,0 +1,177 @@
+body {
+  background-image: url(https://www.hdwallpapers.in/download/bojji_kage_forest_background_hd_ranking_of_kings-HD.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+article {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 25px;
+  background-color: rgba(0, 0, 0, .5);
+  box-shadow: 0 2px 4px rgba(255, 0, 0, 0.1);
+  color: #fff;
+  border-radius: 15px;
+  transition: transform 0.5s;
+}
+
+nav {
+  margin: 0.1em;
+  min-height: 0.2em;
+  padding: .5em;
+  background-color: #ffd500;
+  text-align: center;
+  animation: slideIn 0.5s forwards;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #f0f0f0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  background-color: #ddd;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Styles for the close button */
+.closebtn:hover {
+  background-color: transparent;
+  color: black;
+}
+
+/* Styles to hide the sidebar initially */
+.hidden {
+  width: 0;
+}
+
+.post-container {
+  margin-left: 20%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+
+li a {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+  color: #090c9b;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: #090c9b;
+}
+
+select {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+  color: #090c9b;
+  text-align: center;
+  text-decoration: #090c9b;
+  background-color: #ffd500;
+  border: none;
+}
+
+li a: {
+  background-color: #b4c5e4;
+}
+
+li a:hover {
+  background-color: #b4c5b4;
+  ;
+}
+
+h1 {
+  font-size: 80px;
+  color: white;
+}
+
+.glow-text {
+  text-shadow:
+    0 0 10px #FFFF00,
+    0 0 20px #FFFF00,
+    0 0 30px #FFFF00,
+    0 0 40px #FFFF00,
+    0 0 70px #FFFF00,
+    0 0 80px #FFFF00,
+    0 0 100px #FFFF00,
+    0 0 150px #FFFF00;
+}
+
+p {
+  font-size: 20px;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 0.1em;
+  min-height: 0.2em;
+  padding: .5em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #FFFF00;
+  background-color: rgba(255, 0, 0, 0.1);
+
+}
+
+h2 {
+  color: #ffd500;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  padding-bottom: 10px;
+}
+
+article:hover {
+  transform: translateY(-10px);
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
